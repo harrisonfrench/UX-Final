@@ -1,0 +1,52 @@
+/* Design tokens. Same values as the Figma design system page (3 · Design system).
+   Contrast ratios are in docs/design-system.md. Light theme only for now. */
+:root {
+  color-scheme: light;
+
+  /* Surfaces */
+  --page: #f4f4f1;
+  --surface: #ffffff;
+  --subtle: #f6f5f1;
+  --seg: #ecebe6;
+
+  /* Ink */
+  --ink: #0b0b0b;          /* 19.68:1 on white */
+  --ink-2: #52514e;        /* 7.94:1 */
+  --muted: #6b6a65;        /* 5.42:1, axis text and captions */
+
+  /* Lines */
+  --line: #e4e3dd;         /* card borders */
+  --grid: #e1e0d9;         /* chart gridlines */
+  --baseline: #c3c2b7;     /* chart baseline, input borders */
+
+  /* Brand */
+  --accent: #184f95;       /* 8.10:1 */
+  --accent-bg: #e8f0fb;
+
+  /* Data */
+  --series: #2a78d6;       /* team series, graphics only (4.42:1) */
+  --series-track: #f1f0ec;
+  --median: #6b6a65;       /* org median, dashed */
+  --target: #52514e;       /* target lines, dashed */
+
+  /* Status: always icon + word + color */
+  --good: #0ca30c;
+  --warn: #fab219;
+  --bad: #d03b3b;
+  --good-bg: #e7f5e7;  --good-fg: #006300;
+  --warn-bg: #fff4d6;  --warn-fg: #8a5a00;
+  --bad-bg: #fbe9e9;   --bad-fg: #a32020;
+  --delta-good: #006300;
+  --delta-bad: #d03b3b;
+
+  /* Type */
+  --font: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  /* Space and shape */
+  --s1: 4px; --s2: 8px; --s3: 12px; --s4: 16px; --s5: 24px; --s6: 32px;
+  --radius: 8px;
+  --radius-lg: 12px;
+  --shadow-dialog: 0 8px 24px rgba(0, 0, 0, 0.18);
+  --focus: 0 0 0 3px rgba(24, 79, 149, 0.35);
+}
